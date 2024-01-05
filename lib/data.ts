@@ -88,8 +88,8 @@ export const projectsData = [
       "Porfolio personal, en donde muestro alguno a mis proyecto.",
     tags: ["React", "Tailwind", "Next.js", "Framer Motion"],
     imageUrl: portfolio,
-    gitUrl: "https://github.com/hoxtocapan/citas_react",
-    liveUrl: "https://phenomenal-paletas-7a7455.netlify.app/",
+    gitUrl: "https://github.com/hoxtocapan/Mi-Portfolio",
+    liveUrl: "https://mi-portfolio-mocha.vercel.app/",
   },
 ] as const;
 
