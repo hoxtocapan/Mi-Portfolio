@@ -6,6 +6,9 @@ import guitarLA from "@/public/guitarLA.png"
 import carritoCompras from "@/public/carritoCompras.png";
 import realState from "@/public/realState.png";
 import portfolio from "@/public/potfolio.png"
+import certificado01 from "@/public/certificado01.jpg"
+import certificado02 from "@/public/certificado02.jpg"
+import certificado03 from "@/public/certificado03.jpg"
 
 
 export const links = [
@@ -24,6 +27,10 @@ export const links = [
   {
     name: "Habilidades",
     hash: "#skills",
+  },
+  {
+    name: "Certificados",
+    hash: "#certificates",
   },
   {
     name: "Experiencia",
@@ -48,7 +55,7 @@ export const experiencesData = [
     title: "Instituto de Compuingles de Oriente",
     location: "Puebla, Mexico",
     description:
-      "Desarrollo de sistema web educativo para los planteles usando HTML, CSS, JavaScript, AJAX, PHP, asegurando una buena optimización del rendimiento del sitio web y diseños responsivos.",
+      "Desarrollo de sistema web educativo usando HTML, CSS, JavaScript, AJAX, PHP, asegurando una buena optimización del rendimiento del sitio web y diseños responsivos.",
     icon: React.createElement(CgWorkAlt),
     date: "Agosto 2022 - Presente",
   },
@@ -108,4 +115,12 @@ export const skillsData = [
   "Laravel",
   "MySql",
   "jQuery"
+] as const;
+
+export const certificatesData = [
+  { imageUrl:certificado01},
+  { imageUrl:certificado02},
+  { imageUrl:certificado03},
+
+
 ] as const;
