@@ -8,7 +8,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof certificatesData)[number];
 
-export default function certificate({imageUrl}: ProjectProps) {
+export default function Certificate({imageUrl}: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
