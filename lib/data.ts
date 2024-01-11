@@ -90,9 +90,9 @@ export const projectsData = [
     liveUrl: "https://tranquil-bubblegum-a90370.netlify.app/",
   },
   {
-    title: "Portfolio",
+    title: "Portafolio",
     description:
-      "Porfolio personal, en donde muestro alguno a mis proyecto.",
+      "Portafolio personal, en donde muestro alguno a mis proyectos, habilidades y más información acerca de mí.",
     tags: ["React", "Tailwind", "Next.js", "Framer Motion"],
     imageUrl: portfolio,
     gitUrl: "https://github.com/hoxtocapan/Mi-Portfolio",
