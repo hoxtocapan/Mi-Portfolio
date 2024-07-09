@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "Desarrollo de sistema web educativo usando HTML, CSS, JavaScript, AJAX, PHP, asegurando una buena optimización del rendimiento del sitio web y diseños responsivos.",
     icon: React.createElement(CgWorkAlt),
-    date: "Agosto 2022 - Presente",
+    date: "Agosto 2022 - Febrero 2024",
   },
  
 ] as const;
