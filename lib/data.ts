@@ -59,6 +59,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Agosto 2022 - Febrero 2024",
   },
+    {
+    title: "Schnellecke Logistics, Unidad VWM",
+    location: "Cuautlancingo, Puebla",
+    description:
+      "Mantengo y creo aplicaciones web para los procesos de logística del cliente (VWM). Utilizo .NET, SQL Server, HTML, CSS, Bootstrap, jQuery y JavaScript para desarrollar y optimizar aplicaciones, asegurando un rendimiento eficiente. Colaboro con el equipo de logística y otros departamentos para traducir los requisitos del cliente en soluciones técnicas, y participo en reuniones de planificación para alinear los proyectos con los objetivos del cliente.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Febrero 2024 - Presente",
+  },
  
 ] as const;
 
@@ -106,15 +114,17 @@ export const skillsData = [
   "Bootstrap",
   "JavaScript",
   "React",
-  "Next.js",
   "Git",
   "Tailwind",
   "Sass",
-  "Vue.js",
   "PHP",
   "Laravel",
   "MySql",
-  "jQuery"
+  "jQuery",
+  "C#",
+  ".NET",
+  "SqlServer"
+  
 ] as const;
 
 export const certificatesData = [
